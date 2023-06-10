@@ -1,0 +1,17 @@
+{
+    "proyectos" : [
+        {
+            "nombre": "Skilled-e-learning-landing-page", 
+            "descripcion": "Primer proyecto",
+            "imagen": "./img/proyecto1.PNG",
+            "url":"./Skilled-e-learning-landing-page-master/index.html"
+        },
+
+        {
+            "nombre": "Stats preview card component", 
+            "descripcion": "Segundo proyecto",
+            "imagen": "./img/proyecto2.PNG",
+            "url":"./stats-preview-card-component-main/index.html"
+        }
+    ]
+}

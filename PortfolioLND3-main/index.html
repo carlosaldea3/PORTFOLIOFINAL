@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Diseñador Freelancer</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Carlos Aldea</h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#sobremi">Sobre Mí</a>
+            <a href="#">Skills</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+    <section class="hero">
+        <div class="contenido-hero">
+            <div class="contenedor sombra sombra2 doscolumnas" id="sobremi">
+                <img src="./img/foto.png" alt="">
+                <p>Apasionado por las tecnologías y fanático del desarrollo, me encanta aprender nuevos conceptos de programación y profundizar sobre las herramientas que uso. Manejo las tecnologías fundamentales de la web, especializado en Angular y React. Además tengo conocimientos sobre diseño de base de datos relacionales y tecnología backend Java con Spring Boot.</p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="contenedor sombra">
+            <div id="experiencia">
+                <h1>Experiencia</h1>
+                <h2>Experiencia laboral</h2>
+                <ul>
+                    <li>Técnico de sistemas microinformáticos y redes</li>
+                    <li>Reparación móviles</li>
+                </ul>
+                <h2>Formación laboral</h2>
+                <ul>
+                    <li>Educación Secundaria Obligatoria</li>
+                    <li>Bachillerato</li>
+                    <li>Ciclo Formativo Grado Medio - Sistemas Microinformáticos y Redes</li>
+                </ul>
+            </div>
+            <hr>
+            <h1>Proyectos</h1>
+            <div class="proyectos columnas" id="proyectos">
+            <script src="./datosproyectos.js"></script>
+            </div>
+            <br>
+            <div class="formulario">
+                <legend>Contáctanos llenando todos los campos.</legend>
+                <form autocomplete="off">
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">Teléfono</label>
+                            <input type="number" id="telefono" name="telefono" maxlength="9" placeholder="Tu teléfono">
+                        </div>
+                        <div class="unacolumna">
+                            <div class="campo">
+                                <label for="telefono">Correo</label>
+                                <input type="email" id="correo" name="correo" placeholder="Tu correo">
+                            </div>
+                            <div class="campo">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="boton">Enviar</button>
+                </form>
+                <script src="./formulario.js"></script>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
